@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(../img/bg3.png);
+   
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:4rem ;
+    
+}
+
+/*----страницы-------------------------------------------------------------------------*/
+#second_page{
+    display: none;
+}
+#thith_page{
+    display: none;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*----текст----------------------------------------------------------------------------*/
+h1{
+    -webkit-text-stroke: 1.5px black;
+    font-family: "Single Day", cursive;
+    font-size: 4rem;
+    margin: 1rem;
+    color: rgb(255, 17, 124);
+    text-align: center;
+}
+h2{
+    -webkit-text-stroke: 1.5px black;
+    font-family: "Single Day", cursive;
+    font-size: 3rem;
+    margin: 1rem;
+    color: rgb(255, 17, 124);
+    text-align: center;
+}
+p{
+    -webkit-text-stroke: 1.5px black;
+    font-family: "Single Day", cursive;
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(255, 17, 124);
+    text-align: center;
+    width: 40rem;
+}
+
+/*----кнопки---------------------------------------------------------------------------*/
+.btn{
+    font-family: "Single Day", cursive;
+    width: 100px;
+    background-color: rgb(255, 17, 124);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+
+.second-no{
+    position: absolute;
+}
+
+
+
+
+
+@media screen and (max-width: 540px) {
+    .img{
+        width: 14rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+        -webkit-text-stroke: 1px black;
+    }
+    p{
+        -webkit-text-stroke: 1.2px black;
+        font-size: 2rem;
+        width: 20rem;
+    }
+}
